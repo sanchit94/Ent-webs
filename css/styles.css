@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 html, body {
     margin: 0;
@@ -12,11 +13,29 @@ section.intro {
     width: 100%;
     margin: auto;
     background: url(../src/s3.jpg) no-repeat 50% 50%;
+    filter: blur(1px);
     background-size: cover;
     display: table;
+    
 }
 
 .padding {
     padding: 2rem;
+
+}
+.navbar {
+    font-weight: 600;
+    filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+    
+}
+.navbar .navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+   
+
 }
 
+.fa-facebook, .fa-google-plus-g, .fa-instagram, .fa-youtube, .fa-twitter {
+    font-size: 4.5rem;
+    margin: 30px 55px;
+}
